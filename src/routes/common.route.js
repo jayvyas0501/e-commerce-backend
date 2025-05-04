@@ -1,9 +1,8 @@
 import express from "express"
+import { getProfile } from "../controller/user.controller.js"
 
 const router = express.Router()
 
-router.get("/",(req,res)=>{
-    console.log("home");
-})
+router.get("/profile",getProfile)
 
 export default router
