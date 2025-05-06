@@ -1,4 +1,4 @@
-import { ref, required } from "joi"
+
 import mongoose from "mongoose"
 
 const profileSchema = mongoose.Schema({
@@ -20,7 +20,7 @@ const profileSchema = mongoose.Schema({
     address:{
         street:String,
         city:String,
-        state:String,
+        state:String, 
         postalCode:Number,
         country:String
     },
