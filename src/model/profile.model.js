@@ -17,6 +17,10 @@ const profileSchema = mongoose.Schema({
         type:String,
         default:""
     },
+    avatarPublicId: {
+        type: String,
+        default: "",
+      },
     address:{
         street:String,
         city:String,

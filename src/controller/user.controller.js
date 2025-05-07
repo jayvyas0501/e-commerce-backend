@@ -1,9 +1,11 @@
+import cloudinary from "../config/cloudinaryConfig.js";
 import profileModel from "../model/profile.model.js";
 
 export const createProfile = async (req,res) => {
   try {
     const userId = req.user.id
-    const {phone,avatar,address,dateOfBirth,gender} = req.body;
+    const {phone,address,dateOfBirth,gender} = req.body;
+    const avatar = req.file?.path;
     const existingProfile = await profileModel.findOne({user:userId})
     if(existingProfile){
       res.status(400).json({
@@ -66,8 +68,15 @@ export const getProfile = async (req, res) => {
 export const updateProfile = async (req, res) => {
   try {
     const profileId = req.params.id;
-    const {phone, avatar, address, dateOfBirth, gender} = req.body;
-    const updatedProfile = await profileModel.findByIdAndUpdate(profileId,{phone, avatar, address, dateOfBirth, gender},{new:true})
+    const {phone, address, dateOfBirth, gender} = req.body;
+
+    const profile = await profileModel.findById(profileId)
+    if(req.file){
+      if(profile.avatarPublicId){
+        await cloudinary.uploader.destroy(profile.avatarPublicId)
+      }
+    }
+
     res.status(200).json({
       success: true,
       message: "profile updated successfully!",
