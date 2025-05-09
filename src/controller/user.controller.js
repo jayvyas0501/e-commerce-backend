@@ -1,93 +1,94 @@
 import cloudinary from "../config/cloudinaryConfig.js";
 import profileModel from "../model/profile.model.js";
+import { wrapAsync } from "../utils/wrapAsync.js";
 
-export const createProfile = async (req,res) => {
-  try {
-    const userId = req.user.id
-    const {phone,address,dateOfBirth,gender} = req.body;
-    const avatar = req.file?.path;
-    const existingProfile = await profileModel.findOne({user:userId})
-    if(existingProfile){
-      res.status(400).json({
-        success: false,
-        message: "profile already exist!",
-      });
-    }
-    const profile = await profileModel.create({
-      user:userId,
-      phone,
-      avatar,
-      address,
-      dateOfBirth,
-      gender
-    })
-    res.status(201).json({
-      success: true,
-      message: "profile created successfully!",
-      data:profile
-    });
-
-  } catch (error) {
-    console.log("create profile : " + error);
-    res.status(500).json({
+export const createProfile = wrapAsync(async (req, res) => {
+  const userId = req.user.id;
+  const { phone, address, dateOfBirth, gender } = req.body;
+  const avatar = req.file?.path;
+  const existingProfile = await profileModel.findOne({ user: userId });
+  if (existingProfile) {
+    return res.status(400).json({
       success: false,
-      message: "Something went wrong while creating user profile!",
+      message: "profile already exist!",
     });
   }
-}
+  const profile = await profileModel.create({
+    user: userId,
+    phone,
+    avatar,
+    address,
+    dateOfBirth,
+    gender,
+  });
+  res.status(201).json({
+    success: true,
+    message: "profile created successfully!",
+    data: profile,
+  });
+});
 
-export const getProfile = async (req, res) => {
-  try {
-    const id = req.params.id;
-    const userProfile = await profileModel.findById(id).populate({
-      path: "user",
-      select: "name email role",
-    });
+export const getProfile = wrapAsync(async (req, res) => {
+  const id = req.params.id;
+  const userProfile = await profileModel.findById(id).populate({
+    path: "user",
+    select: "name email role",
+  });
 
-    if (!userProfile) {
-      return res.status(404).json({
-        success: false,
-        message: "User profile not found!",
-      });
-    }
-
-    res.status(200).json({
-      success: true,
-      message: "User profile recieved!",
-      data: userProfile,
-    });
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({
+  if (!userProfile) {
+    return res.status(404).json({
       success: false,
-      message: "Something went wrong while getting user profile!",
+      message: "User profile not found!",
     });
   }
-};
 
-export const updateProfile = async (req, res) => {
-  try {
-    const profileId = req.params.id;
-    const {phone, address, dateOfBirth, gender} = req.body;
+  res.status(200).json({
+    success: true,
+    message: "User profile recieved!",
+    data: userProfile,
+  });
+});
 
-    const profile = await profileModel.findById(profileId)
-    if(req.file){
-      if(profile.avatarPublicId){
-        await cloudinary.uploader.destroy(profile.avatarPublicId)
-      }
-    }
+export const updateProfile = wrapAsync(async (req, res) => {
+  const profileId = req.params.id;
+  const { phone, address, dateOfBirth, gender } = req.body;
 
-    res.status(200).json({
-      success: true,
-      message: "profile updated successfully!",
-      data: updatedProfile
-    });
+  let avatar;
+  let avatarPublicId;
 
-  } catch (error) {
-    console.log(error);
-    res.status(500).json({
+  const profile = await profileModel.findById(profileId);
+
+  if (!profile) {
+    throw new Error("Profile not found!");
+    
+    return res.status(404).json({
+      message: "profile not found!",
       success: false,
-      message: "Something went wrong while updating user profile!",
     });
   }
-};
+
+  if (req?.file) {
+    if (profile.avatarPublicId) {
+      await cloudinary.uploader.destroy(profile.avatarPublicId);
+    }
+    avatar = req.file.path;
+    avatarPublicId = req.file.filename;
+
+    profile.avatar = avatar;
+    profile.avatarPublicId = avatarPublicId;
+  }
+
+  profile.phone = phone || profile.phone;
+  profile.address = address || profile.address;
+  profile.dateOfBirth = dateOfBirth || profile.dateOfBirth;
+  profile.gender = gender || profile.gender;
+  profile.phone = phone || profile.phone;
+
+  const updatedProfile = await profile.save();
+
+  res.status(200).json({
+    success: true,
+    message: "profile updated successfully!",
+    data: updatedProfile,
+  });
+});

@@ -1,8 +1,9 @@
 import userModel from "../model/user.model.js";
 import jwt from "jsonwebtoken";
 import { hashPassword, isPasswordValid } from "../utils/Bcrypt.js";
+import { wrapAsync } from "../utils/wrapAsync.js";
 
-export const signup = async (req, res) => {
+export const signup = wrapAsync(async (req, res) => {
   try {
     const { name, email, password, role } = req.body;
 
@@ -13,7 +14,7 @@ export const signup = async (req, res) => {
         .json({ message: "Email already in use", success: false });
     }
 
-    const hashedPassword = await hashPassword(password)
+    const hashedPassword = await hashPassword(password);
 
     const newUser = await userModel.create({
       name,
@@ -40,9 +41,9 @@ export const signup = async (req, res) => {
       success: false,
     });
   }
-};
+});
 
-export const login = async (req, res) => {
+export const login = wrapAsync(async (req, res) => {
   try {
     const { email, password } = req.body;
     const user = await userModel.findOne({ email });
@@ -91,4 +92,4 @@ export const login = async (req, res) => {
       success: false,
     });
   }
-};
+});

@@ -1,10 +1,8 @@
 import express from "express"
+import { changeAccountpref } from "../controller/vendor.controller.js"
 
 const router = express.Router()
 
-router.get("/",(req,res)=>{
-    console.log("vendor");
-    
-})
+router.post("/chaneg-account-pref",changeAccountpref)
 
 export default router

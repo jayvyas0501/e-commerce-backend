@@ -7,10 +7,10 @@ import upload from "../middleware/upload.js"
 
 const router = express.Router()
 
-router.post("/profile",protect,validate(profileValidator),createProfile)
+router.post("/profile",protect,validate(profileValidator),upload.single('avatar'),createProfile)
 
 router.get("/profile/:id",getProfile)
 
-router.patch("/profile/:id",upload.single('avatar'),protect,updateProfile)
+router.patch("/profile/:id",protect,upload.single('avatar'),updateProfile)
 
 export default router

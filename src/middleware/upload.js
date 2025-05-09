@@ -6,8 +6,8 @@ const storage = new CloudinaryStorage({
     cloudinary,
     params:{
         folder: 'avatar',
-        allowed_formates: ['jpg','jpeg','png'],
-        transformation: [{width:300,heigh:300,crop: 'limit'}]
+        allowed_formats: ['jpg','jpeg','png'],
+        transformation: [{width:300,hieght:300,crop: 'limit'}]
     }
 })
 
