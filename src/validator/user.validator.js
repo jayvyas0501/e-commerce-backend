@@ -23,10 +23,13 @@ export const registerValidator = Joi.object({
     password: Joi.string()
     .min(6)
     .max(128)
-    .message({
+    .messages({
         "string.min": "Password must be at least 6 characters",
         "any.required": "Password is required",
     }),
+    isVerified:Joi.boolean()
+    .default(false)
+    ,
     role:Joi.string()
     .valid("user","admin","vendor")
     .optional()

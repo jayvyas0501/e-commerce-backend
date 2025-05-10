@@ -1,7 +1,7 @@
 
 import mongoose from "mongoose"
 
-const profileSchema = mongoose.Schema({
+const profileSchema = new mongoose.Schema({
     
     user:{
         type: mongoose.Schema.Types.ObjectId,
@@ -33,10 +33,9 @@ const profileSchema = mongoose.Schema({
         type:String,
         enum:["male","female","other"]
     },
-    createdAt:{
-        type:Date,
-        default:Date.now
-    }
+
+},{
+    timestamps:true
 })
 
 export default mongoose.model("Profile",profileSchema)
