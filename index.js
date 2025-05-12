@@ -8,6 +8,7 @@ import UserRoute from "./src/routes/user.route.js"
 import cookieParser from "cookie-parser";
 import { checkRole } from "./src/middleware/checkRole.middleware.js";
 import { protect } from "./src/middleware/protect.js";
+import { globalLimiter } from "./src/middleware/rateLimiter.js";
 
 
 dotenv.config();
@@ -22,6 +23,8 @@ connectDB();
 app.use(express.json()); 
 app.use(urlencoded({extended:true}))
 app.use(cookieParser())
+// Apply global limiter to all routes
+app.use(globalLimiter);
 
 // route
 app.use("/api/auth",AuthRoute)
