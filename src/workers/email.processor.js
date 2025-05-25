@@ -1,11 +1,12 @@
 import { Worker } from "bullmq";
 import { sendEmail } from "../utils/sendEmail.js";
+import logger from "../utils/logger.js";
 
 const worker = new Worker(
   "emailQueue",
   async (job) => {
-    console.log(job.data);
-    
+    logger.info(`Processing email job ${job.id}:`, job.data);
+
     await sendEmail(job.data);
   },
   {
@@ -16,10 +17,10 @@ const worker = new Worker(
   }
 );
 
-worker.on("completed", job =>{
-    console.log(`Email job ${job.id} completed`);
-})
+worker.on("completed", (job) => {
+  logger.info(`Email job ${job.id} completed`);
+});
 
-worker.on("failed", (job,err) => {
-    console.log(`Email job ${job.id} failed: ${err.message}`);
-})
+worker.on("failed", (job, err) => {
+  logger.error(`Email job ${job.id} failed: ${err.message}`);
+});

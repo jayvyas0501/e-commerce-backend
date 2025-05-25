@@ -2,7 +2,7 @@ import { Queue } from "bullmq";
 import IORedis from "ioredis";
 
 const connection = new IORedis({
-  host: "host.docker.internal", // or "host.docker.internal" on Docker for Windows/Mac
+  host: "localhost", // or "host.docker.internal" on Docker for Windows/Mac
   port: 6379,
   maxRetriesPerRequest: null,
 });

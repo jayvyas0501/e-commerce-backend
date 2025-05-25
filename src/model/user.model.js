@@ -26,7 +26,7 @@ const UserSchema = new mongoose.Schema(
       type: String,
       default: "user",
       enum: ["user", "vendor", "admin"],
-    },
+    }
   },
   {
     timestamps: true,

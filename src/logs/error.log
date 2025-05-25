@@ -1,0 +1,11 @@
+[2025-05-24 11:00:15] error: MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017
+[2025-05-24 11:02:41] error: MongoDB connection error: connect ECONNREFUSED 127.0.0.1:27017
+[2025-05-24 11:22:13] error: [POST] /api/auth/signup - Cannot set property query of #<IncomingMessage> which has only a getter - IP: ::1
+[2025-05-24 11:34:08] error: [POST] /api/auth/signup - Cannot set property query of #<IncomingMessage> which has only a getter - IP: ::1
+[2025-05-24 11:44:53] error: [POST] /api/auth/signup - Cannot set property query of #<IncomingMessage> which has only a getter - IP: ::1
+[2025-05-24 11:48:15] error: [POST] /api/auth/signup - Cannot set property query of #<IncomingMessage> which has only a getter - IP: ::1
+[2025-05-24 11:49:02] error: [POST] /api/auth/signup - Cannot set property query of #<IncomingMessage> which has only a getter - IP: ::1
+[2025-05-24 11:49:32] error: [POST] /api/auth/signup - Cannot set property query of #<IncomingMessage> which has only a getter - IP: ::1
+[2025-05-24 11:49:53] error: [POST] /api/auth/signup - Cannot set property query of #<IncomingMessage> which has only a getter - IP: ::1
+[2025-05-24 12:03:09] error: [POST] /api/auth/signup - secretOrPrivateKey must have a value - IP: ::1
+[2025-05-24 12:05:28] error: Email job 1 failed: connect ECONNREFUSED 127.0.0.1:587
