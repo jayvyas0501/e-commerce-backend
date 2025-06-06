@@ -8,3 +8,5 @@ const connection = new IORedis({
 });
 
 export const emailQueue = new Queue("emailQueue", { connection });
+
+export const cloudinaryQueue = new Queue("cloudinaryQueue", { connection })

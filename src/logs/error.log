@@ -9,3 +9,26 @@
 [2025-05-24 11:49:53] error: [POST] /api/auth/signup - Cannot set property query of #<IncomingMessage> which has only a getter - IP: ::1
 [2025-05-24 12:03:09] error: [POST] /api/auth/signup - secretOrPrivateKey must have a value - IP: ::1
 [2025-05-24 12:05:28] error: Email job 1 failed: connect ECONNREFUSED 127.0.0.1:587
+[2025-05-27 14:09:21] error: Email job 2 failed: connect ECONNREFUSED 127.0.0.1:587
+[2025-05-27 14:17:35] error: [POST] /api/vendor/product - Image file format webp not allowed - IP: ::1
+[2025-05-27 14:39:44] error: [POST] /api/auth/signup - User validation failed: role: ` vendor` is not a valid enum value for path `role`. - IP: ::1
+[2025-05-27 14:40:07] error: Email job 3 failed: connect ECONNREFUSED 127.0.0.1:587
+[2025-05-27 14:44:33] error: [PATCH] /api/user/profile/68357a39cf84be38b5b8f5ef - Profile not found! - IP: ::1
+[2025-05-30 14:11:46] error: [POST] /api/vendor/product - Request Timeout - IP: ::1
+[2025-05-30 14:14:13] error: [POST] /api/vendor/product - filename is not defined - IP: ::1
+[2025-05-30 14:15:11] error: [POST] /api/vendor/product - Request Timeout - IP: ::1
+[2025-05-30 14:15:24] error: [POST] /api/vendor/product - filename is not defined - IP: ::1
+[2025-05-30 14:16:47] error: [POST] /api/vendor/product - Request Timeout - IP: ::1
+[2025-05-30 14:17:20] error: [POST] /api/vendor/product - Request Timeout - IP: ::1
+[2025-05-30 14:20:47] error: [POST] /api/vendor/product - Request Timeout - IP: ::1
+[2025-05-30 14:23:28] error: [POST] /api/vendor/product - Request Timeout - IP: ::1
+[2025-06-03 12:00:04] error: [DELETE] /api/vendor/product/683974ce763e507822465e57 - Cannot read properties of undefined (reading 'images') - IP: ::1
+[2025-06-03 12:05:03] error: [DELETE] /api/vendor/product/683974ce763e507822465e57 - Cannot read properties of undefined (reading 'deleteOne') - IP: ::1
+[2025-06-03 12:11:33] error: [DELETE] /api/vendor/product/683974ce763e507822465e57 - Cannot read properties of undefined (reading 'deleteOne') - IP: ::1
+[2025-06-03 13:38:15] error: [DELETE] /api/vendor/product/683974ce763e507822465e57 - Cannot read properties of undefined (reading 'title') - IP: ::1
+[2025-06-03 13:39:44] error: [DELETE] /api/vendor/product/68357cb53405826d9b4afaa6 - Cannot read properties of undefined (reading 'title') - IP: ::1
+[2025-06-03 13:40:11] error: [DELETE] /api/vendor/product/6835801456d75efec91358c7 - Cannot read properties of undefined (reading 'title') - IP: ::1
+[2025-06-03 13:52:27] error: [DELETE] /api/vendor/product/68396bd019ab00285534e2d6 - Cannot read properties of undefined (reading 'title') - IP: ::1
+[2025-06-03 13:57:08] error: [DELETE] /api/vendor/product/683eb19bb467c4e89ebc8f7f - user is not defined - IP: ::1
+[2025-06-03 14:13:34] error: ❌ Failed to delete image products/ywxhad84muraza9cwqqo: Must supply api_key
+[2025-06-03 14:16:23] error: ❌ Failed to delete image products/mxtfb8ua9wnitjfm4tbp: Must supply api_key

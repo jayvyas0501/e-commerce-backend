@@ -8,10 +8,10 @@ const router = express.Router()
 
 router.post("/chaneg-account-pref",changeAccountpref)
 
-router.post("/product", protect,verifyProductOwnership,productUpload.array("images",5),createProduct)
+router.post("/product",productUpload.array("images",5),createProduct)
 
-router.put("/product/:id",protect,verifyProductOwnership,productUpload.array("images",5),updateProduct)
+router.put("/product/:id",verifyProductOwnership,productUpload.array("images",5),updateProduct)
 
-router.delete("/product/:id",protect,deleteProduct)
+router.delete("/product/:id",deleteProduct)
 
 export default router

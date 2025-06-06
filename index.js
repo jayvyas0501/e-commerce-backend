@@ -16,6 +16,7 @@ import helmet from "helmet";
 import { morganMiddleware } from "./src/middleware/morgan.middleware.js";
 import logger from "./src/utils/logger.js";
 import errorHandler from "./src/utils/errorHandler.js";
+import commanRouter from "./src/routes/comman.routes.js";
 
 dotenv.config();
 
@@ -43,6 +44,7 @@ app.use("/api/auth",AuthRoute)
 app.use("/api/admin",protect,checkRole("admin"),AdminRoute)
 app.use("/api/vendor",protect,checkRole("vendor","admin"),VendorRoute)
 app.use("/api/user",UserRoute)
+app.use("/api",commanRouter)
 
 app.use((req, res, next) => {
   res.status(404).json({ success: false, message: "Route not found" });

@@ -9,7 +9,7 @@ const router = express.Router()
 
 router.post("/profile",protect,validate(profileValidator),upload.single('avatar'),createProfile)
 
-router.get("/profile/:id",getProfile)
+router.get("/profile/:id",protect,getProfile)
 
 router.patch("/profile/:id",protect,upload.single('avatar'),updateProfile)
 

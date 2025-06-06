@@ -48,3 +48,830 @@
 [2025-05-24 12:04:32] info: MongoDB connected: localhost
 [2025-05-24 12:05:28] info: Processing email job 1:
 [2025-05-24 12:05:28] error: Email job 1 failed: connect ECONNREFUSED 127.0.0.1:587
+[2025-05-27 11:40:22] info: Server is running at http://localhost:3000
+[2025-05-27 11:40:22] info: MongoDB connected: localhost
+[2025-05-27 14:08:07] info: Server is running at http://localhost:3000
+[2025-05-27 14:08:07] info: MongoDB connected: localhost
+[2025-05-27 14:09:21] info: Processing email job 2:
+[2025-05-27 14:09:21] error: Email job 2 failed: connect ECONNREFUSED 127.0.0.1:587
+[2025-05-27 14:11:31] info: Server is running at http://localhost:3000
+[2025-05-27 14:11:31] info: MongoDB connected: localhost
+[2025-05-27 14:12:17] info: Server is running at http://localhost:3000
+[2025-05-27 14:12:18] info: MongoDB connected: localhost
+[2025-05-27 14:12:38] info: Server is running at http://localhost:3000
+[2025-05-27 14:12:38] info: MongoDB connected: localhost
+[2025-05-27 14:13:03] info: Server is running at http://localhost:3000
+[2025-05-27 14:13:03] info: MongoDB connected: localhost
+[2025-05-27 14:13:05] info: Server is running at http://localhost:3000
+[2025-05-27 14:13:05] info: MongoDB connected: localhost
+[2025-05-27 14:13:09] info: Server is running at http://localhost:3000
+[2025-05-27 14:13:09] info: MongoDB connected: localhost
+[2025-05-27 14:17:35] error: [POST] /api/vendor/product - Image file format webp not allowed - IP: ::1
+[2025-05-27 14:19:57] info: Product created by: vendor, Product: GPU
+[2025-05-27 14:22:09] info: Product updated by: vendor, Product: GPU
+[2025-05-27 14:23:59] info: Server is running at http://localhost:3000
+[2025-05-27 14:23:59] info: MongoDB connected: localhost
+[2025-05-27 14:24:02] info: Server is running at http://localhost:3000
+[2025-05-27 14:24:03] info: MongoDB connected: localhost
+[2025-05-27 14:24:04] info: Server is running at http://localhost:3000
+[2025-05-27 14:24:04] info: MongoDB connected: localhost
+[2025-05-27 14:24:08] info: Server is running at http://localhost:3000
+[2025-05-27 14:24:08] info: MongoDB connected: localhost
+[2025-05-27 14:24:11] info: Product updated by: vendor, Product: GPU
+[2025-05-27 14:24:28] info: Server is running at http://localhost:3000
+[2025-05-27 14:24:28] info: MongoDB connected: localhost
+[2025-05-27 14:24:29] info: Product updated by: vendor, Product: GPU
+[2025-05-27 14:25:06] info: Product updated by: vendor, Product: GPU RTX
+[2025-05-27 14:34:20] info: Product created by: vendor, Product: Shirt
+[2025-05-27 14:39:25] info: Server is running at http://localhost:3000
+[2025-05-27 14:39:25] info: MongoDB connected: localhost
+[2025-05-27 14:39:27] info: Server is running at http://localhost:3000
+[2025-05-27 14:39:27] info: MongoDB connected: localhost
+[2025-05-27 14:39:44] error: [POST] /api/auth/signup - User validation failed: role: ` vendor` is not a valid enum value for path `role`. - IP: ::1
+[2025-05-27 14:40:07] info: Processing email job 3:
+[2025-05-27 14:40:07] error: Email job 3 failed: connect ECONNREFUSED 127.0.0.1:587
+[2025-05-27 14:40:52] info: Server is running at http://localhost:3000
+[2025-05-27 14:40:52] info: MongoDB connected: localhost
+[2025-05-27 14:41:00] info: Server is running at http://localhost:3000
+[2025-05-27 14:41:00] info: MongoDB connected: localhost
+[2025-05-27 14:41:44] info: Server is running at http://localhost:3000
+[2025-05-27 14:41:44] info: MongoDB connected: localhost
+[2025-05-27 14:44:33] error: [PATCH] /api/user/profile/68357a39cf84be38b5b8f5ef - Profile not found! - IP: ::1
+[2025-05-30 13:55:35] info: Server is running at http://localhost:3000
+[2025-05-30 13:55:35] info: MongoDB connected: localhost
+[2025-05-30 13:56:56] info: Product created by: vendor, Product: t-Shirt
+[2025-05-30 14:02:52] info: Server is running at http://localhost:3000
+[2025-05-30 14:02:52] info: MongoDB connected: localhost
+[2025-05-30 14:02:56] info: Server is running at http://localhost:3000
+[2025-05-30 14:02:56] info: MongoDB connected: localhost
+[2025-05-30 14:03:01] info: Server is running at http://localhost:3000
+[2025-05-30 14:03:01] info: MongoDB connected: localhost
+[2025-05-30 14:03:03] info: Server is running at http://localhost:3000
+[2025-05-30 14:03:03] info: MongoDB connected: localhost
+[2025-05-30 14:03:04] info: Server is running at http://localhost:3000
+[2025-05-30 14:03:05] info: MongoDB connected: localhost
+[2025-05-30 14:03:11] info: Server is running at http://localhost:3000
+[2025-05-30 14:03:11] info: MongoDB connected: localhost
+[2025-05-30 14:03:29] info: Server is running at http://localhost:3000
+[2025-05-30 14:03:29] info: MongoDB connected: localhost
+[2025-05-30 14:04:00] info: Server is running at http://localhost:3000
+[2025-05-30 14:04:00] info: MongoDB connected: localhost
+[2025-05-30 14:04:30] info: Server is running at http://localhost:3000
+[2025-05-30 14:04:30] info: MongoDB connected: localhost
+[2025-05-30 14:04:42] info: Server is running at http://localhost:3000
+[2025-05-30 14:04:42] info: MongoDB connected: localhost
+[2025-05-30 14:04:45] info: Server is running at http://localhost:3000
+[2025-05-30 14:04:45] info: MongoDB connected: localhost
+[2025-05-30 14:04:48] info: Server is running at http://localhost:3000
+[2025-05-30 14:04:48] info: MongoDB connected: localhost
+[2025-05-30 14:04:55] info: Server is running at http://localhost:3000
+[2025-05-30 14:04:55] info: MongoDB connected: localhost
+[2025-05-30 14:05:00] info: Server is running at http://localhost:3000
+[2025-05-30 14:05:00] info: MongoDB connected: localhost
+[2025-05-30 14:05:05] info: Server is running at http://localhost:3000
+[2025-05-30 14:05:05] info: MongoDB connected: localhost
+[2025-05-30 14:05:29] info: Server is running at http://localhost:3000
+[2025-05-30 14:05:29] info: MongoDB connected: localhost
+[2025-05-30 14:05:39] info: Server is running at http://localhost:3000
+[2025-05-30 14:05:39] info: MongoDB connected: localhost
+[2025-05-30 14:05:42] info: Server is running at http://localhost:3000
+[2025-05-30 14:05:42] info: MongoDB connected: localhost
+[2025-05-30 14:05:45] info: Server is running at http://localhost:3000
+[2025-05-30 14:05:45] info: MongoDB connected: localhost
+[2025-05-30 14:05:56] info: Server is running at http://localhost:3000
+[2025-05-30 14:05:56] info: MongoDB connected: localhost
+[2025-05-30 14:06:08] info: Server is running at http://localhost:3000
+[2025-05-30 14:06:08] info: MongoDB connected: localhost
+[2025-05-30 14:06:27] info: Server is running at http://localhost:3000
+[2025-05-30 14:06:27] info: MongoDB connected: localhost
+[2025-05-30 14:09:08] info: Server is running at http://localhost:3000
+[2025-05-30 14:09:08] info: MongoDB connected: localhost
+[2025-05-30 14:09:15] info: Server is running at http://localhost:3000
+[2025-05-30 14:09:15] info: MongoDB connected: localhost
+[2025-05-30 14:09:42] info: Server is running at http://localhost:3000
+[2025-05-30 14:09:42] info: MongoDB connected: localhost
+[2025-05-30 14:10:26] info: Server is running at http://localhost:3000
+[2025-05-30 14:10:26] info: MongoDB connected: localhost
+[2025-05-30 14:10:35] info: Server is running at http://localhost:3000
+[2025-05-30 14:10:35] info: MongoDB connected: localhost
+[2025-05-30 14:10:45] info: Server is running at http://localhost:3000
+[2025-05-30 14:10:45] info: MongoDB connected: localhost
+[2025-05-30 14:10:50] info: Server is running at http://localhost:3000
+[2025-05-30 14:10:50] info: MongoDB connected: localhost
+[2025-05-30 14:11:11] info: Server is running at http://localhost:3000
+[2025-05-30 14:11:11] info: MongoDB connected: localhost
+[2025-05-30 14:11:15] info: Server is running at http://localhost:3000
+[2025-05-30 14:11:15] info: MongoDB connected: localhost
+[2025-05-30 14:11:16] info: Server is running at http://localhost:3000
+[2025-05-30 14:11:17] info: MongoDB connected: localhost
+[2025-05-30 14:11:19] info: Server is running at http://localhost:3000
+[2025-05-30 14:11:19] info: MongoDB connected: localhost
+[2025-05-30 14:11:21] info: Server is running at http://localhost:3000
+[2025-05-30 14:11:21] info: MongoDB connected: localhost
+[2025-05-30 14:11:22] info: Server is running at http://localhost:3000
+[2025-05-30 14:11:22] info: MongoDB connected: localhost
+[2025-05-30 14:11:46] error: [POST] /api/vendor/product - Request Timeout - IP: ::1
+[2025-05-30 14:14:13] error: [POST] /api/vendor/product - filename is not defined - IP: ::1
+[2025-05-30 14:15:03] info: Server is running at http://localhost:3000
+[2025-05-30 14:15:03] info: MongoDB connected: localhost
+[2025-05-30 14:15:11] error: [POST] /api/vendor/product - Request Timeout - IP: ::1
+[2025-05-30 14:15:24] error: [POST] /api/vendor/product - filename is not defined - IP: ::1
+[2025-05-30 14:16:12] info: Server is running at http://localhost:3000
+[2025-05-30 14:16:12] info: MongoDB connected: localhost
+[2025-05-30 14:16:18] info: Server is running at http://localhost:3000
+[2025-05-30 14:16:18] info: MongoDB connected: localhost
+[2025-05-30 14:16:47] error: [POST] /api/vendor/product - Request Timeout - IP: ::1
+[2025-05-30 14:17:14] info: Server is running at http://localhost:3000
+[2025-05-30 14:17:14] info: MongoDB connected: localhost
+[2025-05-30 14:17:20] error: [POST] /api/vendor/product - Request Timeout - IP: ::1
+[2025-05-30 14:20:01] info: Server is running at http://localhost:3000
+[2025-05-30 14:20:01] info: MongoDB connected: localhost
+[2025-05-30 14:20:07] info: Server is running at http://localhost:3000
+[2025-05-30 14:20:07] info: MongoDB connected: localhost
+[2025-05-30 14:20:39] info: Server is running at http://localhost:3000
+[2025-05-30 14:20:39] info: MongoDB connected: localhost
+[2025-05-30 14:20:47] error: [POST] /api/vendor/product - Request Timeout - IP: ::1
+[2025-05-30 14:23:21] info: Server is running at http://localhost:3000
+[2025-05-30 14:23:21] info: MongoDB connected: localhost
+[2025-05-30 14:23:28] error: [POST] /api/vendor/product - Request Timeout - IP: ::1
+[2025-05-30 14:34:56] info: Server is running at http://localhost:3000
+[2025-05-30 14:34:56] info: MongoDB connected: localhost
+[2025-05-30 14:35:18] info: Product created by: vendor, Product: t-Shirt
+[2025-05-30 14:36:22] info: Server is running at http://localhost:3000
+[2025-05-30 14:36:22] info: MongoDB connected: localhost
+[2025-05-30 14:36:26] info: Server is running at http://localhost:3000
+[2025-05-30 14:36:26] info: MongoDB connected: localhost
+[2025-05-30 14:36:31] info: Server is running at http://localhost:3000
+[2025-05-30 14:36:31] info: MongoDB connected: localhost
+[2025-05-30 14:36:35] info: Server is running at http://localhost:3000
+[2025-05-30 14:36:35] info: MongoDB connected: localhost
+[2025-05-30 14:36:50] info: Server is running at http://localhost:3000
+[2025-05-30 14:36:50] info: MongoDB connected: localhost
+[2025-05-30 14:36:57] info: Server is running at http://localhost:3000
+[2025-05-30 14:36:57] info: MongoDB connected: localhost
+[2025-05-30 14:36:59] info: Server is running at http://localhost:3000
+[2025-05-30 14:36:59] info: MongoDB connected: localhost
+[2025-05-30 14:37:02] info: Server is running at http://localhost:3000
+[2025-05-30 14:37:02] info: MongoDB connected: localhost
+[2025-05-30 14:37:07] info: Server is running at http://localhost:3000
+[2025-05-30 14:37:07] info: MongoDB connected: localhost
+[2025-05-30 14:37:11] info: Server is running at http://localhost:3000
+[2025-05-30 14:37:11] info: MongoDB connected: localhost
+[2025-05-30 14:37:12] info: Server is running at http://localhost:3000
+[2025-05-30 14:37:12] info: MongoDB connected: localhost
+[2025-05-30 14:37:13] info: Server is running at http://localhost:3000
+[2025-05-30 14:37:14] info: MongoDB connected: localhost
+[2025-05-30 14:37:26] info: Server is running at http://localhost:3000
+[2025-05-30 14:37:26] info: MongoDB connected: localhost
+[2025-05-30 14:37:48] info: Server is running at http://localhost:3000
+[2025-05-30 14:37:48] info: MongoDB connected: localhost
+[2025-05-30 14:37:52] info: Server is running at http://localhost:3000
+[2025-05-30 14:37:52] info: MongoDB connected: localhost
+[2025-05-30 14:38:01] info: Server is running at http://localhost:3000
+[2025-05-30 14:38:01] info: MongoDB connected: localhost
+[2025-05-30 14:38:03] info: Server is running at http://localhost:3000
+[2025-05-30 14:38:03] info: MongoDB connected: localhost
+[2025-05-30 14:38:09] info: Server is running at http://localhost:3000
+[2025-05-30 14:38:09] info: MongoDB connected: localhost
+[2025-05-30 14:38:14] info: Server is running at http://localhost:3000
+[2025-05-30 14:38:14] info: MongoDB connected: localhost
+[2025-05-30 14:38:21] info: Server is running at http://localhost:3000
+[2025-05-30 14:38:21] info: MongoDB connected: localhost
+[2025-05-30 14:39:25] info: Server is running at http://localhost:3000
+[2025-05-30 14:39:25] info: MongoDB connected: localhost
+[2025-05-30 14:39:27] info: Server is running at http://localhost:3000
+[2025-05-30 14:39:28] info: MongoDB connected: localhost
+[2025-05-30 14:39:32] info: Server is running at http://localhost:3000
+[2025-05-30 14:39:32] info: MongoDB connected: localhost
+[2025-05-30 14:40:15] info: Server is running at http://localhost:3000
+[2025-05-30 14:40:15] info: MongoDB connected: localhost
+[2025-05-30 14:40:26] info: Server is running at http://localhost:3000
+[2025-05-30 14:40:26] info: MongoDB connected: localhost
+[2025-05-30 14:40:28] info: Server is running at http://localhost:3000
+[2025-05-30 14:40:28] info: MongoDB connected: localhost
+[2025-05-30 14:40:40] info: Server is running at http://localhost:3000
+[2025-05-30 14:40:40] info: MongoDB connected: localhost
+[2025-05-30 14:41:18] info: Server is running at http://localhost:3000
+[2025-05-30 14:41:18] info: MongoDB connected: localhost
+[2025-05-30 14:41:31] info: Server is running at http://localhost:3000
+[2025-05-30 14:41:31] info: MongoDB connected: localhost
+[2025-05-30 14:41:54] info: Server is running at http://localhost:3000
+[2025-05-30 14:41:54] info: MongoDB connected: localhost
+[2025-05-30 14:41:55] info: Server is running at http://localhost:3000
+[2025-05-30 14:41:55] info: MongoDB connected: localhost
+[2025-05-30 14:42:05] info: Server is running at http://localhost:3000
+[2025-05-30 14:42:05] info: MongoDB connected: localhost
+[2025-05-30 15:01:10] info: Server is running at http://localhost:3000
+[2025-05-30 15:01:10] info: MongoDB connected: localhost
+[2025-05-30 15:01:11] info: Server is running at http://localhost:3000
+[2025-05-30 15:01:11] info: MongoDB connected: localhost
+[2025-05-30 15:20:10] info: Server is running at http://localhost:3000
+[2025-05-30 15:20:10] info: MongoDB connected: localhost
+[2025-06-02 13:13:27] info: Server is running at http://localhost:3000
+[2025-06-02 13:13:27] info: MongoDB connected: localhost
+[2025-06-02 13:15:21] info: Server is running at http://localhost:3000
+[2025-06-02 13:15:21] info: MongoDB connected: localhost
+[2025-06-03 11:47:37] info: Server is running at http://localhost:3000
+[2025-06-03 11:47:37] info: MongoDB connected: localhost
+[2025-06-03 12:00:04] error: [DELETE] /api/vendor/product/683974ce763e507822465e57 - Cannot read properties of undefined (reading 'images') - IP: ::1
+[2025-06-03 12:02:54] info: Server is running at http://localhost:3000
+[2025-06-03 12:02:54] info: MongoDB connected: localhost
+[2025-06-03 12:02:57] info: Server is running at http://localhost:3000
+[2025-06-03 12:02:57] info: MongoDB connected: localhost
+[2025-06-03 12:02:59] info: Server is running at http://localhost:3000
+[2025-06-03 12:02:59] info: MongoDB connected: localhost
+[2025-06-03 12:03:03] info: Server is running at http://localhost:3000
+[2025-06-03 12:03:03] info: MongoDB connected: localhost
+[2025-06-03 12:05:03] error: [DELETE] /api/vendor/product/683974ce763e507822465e57 - Cannot read properties of undefined (reading 'deleteOne') - IP: ::1
+[2025-06-03 12:05:41] info: Server is running at http://localhost:3000
+[2025-06-03 12:05:41] info: MongoDB connected: localhost
+[2025-06-03 12:05:46] info: Server is running at http://localhost:3000
+[2025-06-03 12:05:46] info: MongoDB connected: localhost
+[2025-06-03 12:05:47] info: Server is running at http://localhost:3000
+[2025-06-03 12:05:47] info: MongoDB connected: localhost
+[2025-06-03 12:05:54] info: Server is running at http://localhost:3000
+[2025-06-03 12:05:54] info: MongoDB connected: localhost
+[2025-06-03 12:05:55] info: Server is running at http://localhost:3000
+[2025-06-03 12:05:56] info: MongoDB connected: localhost
+[2025-06-03 12:06:02] info: Server is running at http://localhost:3000
+[2025-06-03 12:06:02] info: MongoDB connected: localhost
+[2025-06-03 12:06:03] info: Server is running at http://localhost:3000
+[2025-06-03 12:06:03] info: MongoDB connected: localhost
+[2025-06-03 12:10:38] info: Server is running at http://localhost:3000
+[2025-06-03 12:10:38] info: MongoDB connected: localhost
+[2025-06-03 12:11:33] error: [DELETE] /api/vendor/product/683974ce763e507822465e57 - Cannot read properties of undefined (reading 'deleteOne') - IP: ::1
+[2025-06-03 12:13:41] info: Server is running at http://localhost:3000
+[2025-06-03 12:13:41] info: MongoDB connected: localhost
+[2025-06-03 12:13:52] info: Server is running at http://localhost:3000
+[2025-06-03 12:13:52] info: MongoDB connected: localhost
+[2025-06-03 12:13:57] info: Server is running at http://localhost:3000
+[2025-06-03 12:13:57] info: MongoDB connected: localhost
+[2025-06-03 12:14:01] info: Server is running at http://localhost:3000
+[2025-06-03 12:14:01] info: MongoDB connected: localhost
+[2025-06-03 12:14:04] info: Server is running at http://localhost:3000
+[2025-06-03 12:14:04] info: MongoDB connected: localhost
+[2025-06-03 12:14:08] info: Server is running at http://localhost:3000
+[2025-06-03 12:14:08] info: MongoDB connected: localhost
+[2025-06-03 12:14:11] info: Server is running at http://localhost:3000
+[2025-06-03 12:14:11] info: MongoDB connected: localhost
+[2025-06-03 12:14:13] info: Server is running at http://localhost:3000
+[2025-06-03 12:14:13] info: MongoDB connected: localhost
+[2025-06-03 12:14:15] info: Server is running at http://localhost:3000
+[2025-06-03 12:14:15] info: MongoDB connected: localhost
+[2025-06-03 12:14:19] info: Server is running at http://localhost:3000
+[2025-06-03 12:14:19] info: MongoDB connected: localhost
+[2025-06-03 12:14:24] info: Server is running at http://localhost:3000
+[2025-06-03 12:14:24] info: MongoDB connected: localhost
+[2025-06-03 12:14:26] info: Server is running at http://localhost:3000
+[2025-06-03 12:14:26] info: MongoDB connected: localhost
+[2025-06-03 12:14:30] info: Server is running at http://localhost:3000
+[2025-06-03 12:14:30] info: MongoDB connected: localhost
+[2025-06-03 12:14:34] info: Server is running at http://localhost:3000
+[2025-06-03 12:14:34] info: MongoDB connected: localhost
+[2025-06-03 12:14:41] info: Server is running at http://localhost:3000
+[2025-06-03 12:14:41] info: MongoDB connected: localhost
+[2025-06-03 12:14:48] info: Server is running at http://localhost:3000
+[2025-06-03 12:14:48] info: MongoDB connected: localhost
+[2025-06-03 12:15:13] info: Server is running at http://localhost:3000
+[2025-06-03 12:15:13] info: MongoDB connected: localhost
+[2025-06-03 12:15:24] info: Server is running at http://localhost:3000
+[2025-06-03 12:15:24] info: MongoDB connected: localhost
+[2025-06-03 12:15:32] info: Server is running at http://localhost:3000
+[2025-06-03 12:15:32] info: MongoDB connected: localhost
+[2025-06-03 12:15:39] info: Server is running at http://localhost:3000
+[2025-06-03 12:15:39] info: MongoDB connected: localhost
+[2025-06-03 12:17:02] info: Server is running at http://localhost:3000
+[2025-06-03 12:17:02] info: MongoDB connected: localhost
+[2025-06-03 12:17:17] info: Server is running at http://localhost:3000
+[2025-06-03 12:17:17] info: MongoDB connected: localhost
+[2025-06-03 12:17:28] info: Server is running at http://localhost:3000
+[2025-06-03 12:17:28] info: MongoDB connected: localhost
+[2025-06-03 12:17:44] info: Server is running at http://localhost:3000
+[2025-06-03 12:17:44] info: MongoDB connected: localhost
+[2025-06-03 12:17:47] info: Server is running at http://localhost:3000
+[2025-06-03 12:17:47] info: MongoDB connected: localhost
+[2025-06-03 12:17:48] info: Server is running at http://localhost:3000
+[2025-06-03 12:17:48] info: MongoDB connected: localhost
+[2025-06-03 12:18:09] info: Server is running at http://localhost:3000
+[2025-06-03 12:18:09] info: MongoDB connected: localhost
+[2025-06-03 12:22:48] info: Server is running at http://localhost:3000
+[2025-06-03 12:22:48] info: MongoDB connected: localhost
+[2025-06-03 12:22:52] info: Server is running at http://localhost:3000
+[2025-06-03 12:22:52] info: MongoDB connected: localhost
+[2025-06-03 12:22:58] info: Server is running at http://localhost:3000
+[2025-06-03 12:22:58] info: MongoDB connected: localhost
+[2025-06-03 12:23:06] info: Server is running at http://localhost:3000
+[2025-06-03 12:23:06] info: MongoDB connected: localhost
+[2025-06-03 12:23:09] info: Server is running at http://localhost:3000
+[2025-06-03 12:23:09] info: MongoDB connected: localhost
+[2025-06-03 12:23:11] info: Server is running at http://localhost:3000
+[2025-06-03 12:23:11] info: MongoDB connected: localhost
+[2025-06-03 12:23:14] info: Server is running at http://localhost:3000
+[2025-06-03 12:23:14] info: MongoDB connected: localhost
+[2025-06-03 12:23:24] info: Server is running at http://localhost:3000
+[2025-06-03 12:23:24] info: MongoDB connected: localhost
+[2025-06-03 12:27:51] info: Server is running at http://localhost:3000
+[2025-06-03 12:27:51] info: MongoDB connected: localhost
+[2025-06-03 12:29:05] info: Server is running at http://localhost:3000
+[2025-06-03 12:29:05] info: MongoDB connected: localhost
+[2025-06-03 12:31:02] info: Server is running at http://localhost:3000
+[2025-06-03 12:31:02] info: MongoDB connected: localhost
+[2025-06-03 12:31:17] info: Server is running at http://localhost:3000
+[2025-06-03 12:31:17] info: MongoDB connected: localhost
+[2025-06-03 12:31:37] info: Server is running at http://localhost:3000
+[2025-06-03 12:31:37] info: MongoDB connected: localhost
+[2025-06-03 12:31:40] info: Server is running at http://localhost:3000
+[2025-06-03 12:31:40] info: MongoDB connected: localhost
+[2025-06-03 12:31:45] info: Server is running at http://localhost:3000
+[2025-06-03 12:31:45] info: MongoDB connected: localhost
+[2025-06-03 12:31:48] info: Server is running at http://localhost:3000
+[2025-06-03 12:31:48] info: MongoDB connected: localhost
+[2025-06-03 12:31:51] info: Server is running at http://localhost:3000
+[2025-06-03 12:31:51] info: MongoDB connected: localhost
+[2025-06-03 12:31:58] info: Server is running at http://localhost:3000
+[2025-06-03 12:31:58] info: MongoDB connected: localhost
+[2025-06-03 12:32:07] info: Server is running at http://localhost:3000
+[2025-06-03 12:32:07] info: MongoDB connected: localhost
+[2025-06-03 12:34:02] info: Server is running at http://localhost:3000
+[2025-06-03 12:34:02] info: MongoDB connected: localhost
+[2025-06-03 13:19:33] info: Server is running at http://localhost:3000
+[2025-06-03 13:19:33] info: MongoDB connected: localhost
+[2025-06-03 13:19:35] info: Server is running at http://localhost:3000
+[2025-06-03 13:19:35] info: MongoDB connected: localhost
+[2025-06-03 13:19:39] info: Server is running at http://localhost:3000
+[2025-06-03 13:19:39] info: MongoDB connected: localhost
+[2025-06-03 13:19:42] info: Server is running at http://localhost:3000
+[2025-06-03 13:19:42] info: MongoDB connected: localhost
+[2025-06-03 13:19:45] info: Server is running at http://localhost:3000
+[2025-06-03 13:19:45] info: MongoDB connected: localhost
+[2025-06-03 13:20:15] info: Server is running at http://localhost:3000
+[2025-06-03 13:20:15] info: MongoDB connected: localhost
+[2025-06-03 13:20:18] info: Server is running at http://localhost:3000
+[2025-06-03 13:20:18] info: MongoDB connected: localhost
+[2025-06-03 13:20:23] info: Server is running at http://localhost:3000
+[2025-06-03 13:20:23] info: MongoDB connected: localhost
+[2025-06-03 13:20:35] info: Server is running at http://localhost:3000
+[2025-06-03 13:20:35] info: MongoDB connected: localhost
+[2025-06-03 13:20:42] info: Server is running at http://localhost:3000
+[2025-06-03 13:20:42] info: MongoDB connected: localhost
+[2025-06-03 13:20:45] info: Server is running at http://localhost:3000
+[2025-06-03 13:20:45] info: MongoDB connected: localhost
+[2025-06-03 13:21:18] info: Server is running at http://localhost:3000
+[2025-06-03 13:21:18] info: MongoDB connected: localhost
+[2025-06-03 13:21:23] info: Server is running at http://localhost:3000
+[2025-06-03 13:21:23] info: MongoDB connected: localhost
+[2025-06-03 13:21:39] info: Server is running at http://localhost:3000
+[2025-06-03 13:21:40] info: MongoDB connected: localhost
+[2025-06-03 13:21:48] info: Server is running at http://localhost:3000
+[2025-06-03 13:21:48] info: MongoDB connected: localhost
+[2025-06-03 13:21:50] info: Server is running at http://localhost:3000
+[2025-06-03 13:21:50] info: MongoDB connected: localhost
+[2025-06-03 13:28:54] info: Server is running at http://localhost:3000
+[2025-06-03 13:28:54] info: MongoDB connected: localhost
+[2025-06-03 13:28:58] info: Server is running at http://localhost:3000
+[2025-06-03 13:28:58] info: MongoDB connected: localhost
+[2025-06-03 13:29:08] info: Server is running at http://localhost:3000
+[2025-06-03 13:29:08] info: MongoDB connected: localhost
+[2025-06-03 13:32:41] info: Server is running at http://localhost:3000
+[2025-06-03 13:32:41] info: MongoDB connected: localhost
+[2025-06-03 13:32:42] info: Server is running at http://localhost:3000
+[2025-06-03 13:32:42] info: MongoDB connected: localhost
+[2025-06-03 13:32:54] info: Server is running at http://localhost:3000
+[2025-06-03 13:32:54] info: MongoDB connected: localhost
+[2025-06-03 13:32:57] info: Server is running at http://localhost:3000
+[2025-06-03 13:32:57] info: MongoDB connected: localhost
+[2025-06-03 13:33:08] info: Server is running at http://localhost:3000
+[2025-06-03 13:33:08] info: MongoDB connected: localhost
+[2025-06-03 13:33:11] info: Server is running at http://localhost:3000
+[2025-06-03 13:33:11] info: MongoDB connected: localhost
+[2025-06-03 13:33:15] info: Server is running at http://localhost:3000
+[2025-06-03 13:33:15] info: MongoDB connected: localhost
+[2025-06-03 13:35:03] info: Server is running at http://localhost:3000
+[2025-06-03 13:35:03] info: MongoDB connected: localhost
+[2025-06-03 13:35:12] info: Server is running at http://localhost:3000
+[2025-06-03 13:35:12] info: MongoDB connected: localhost
+[2025-06-03 13:35:17] info: Server is running at http://localhost:3000
+[2025-06-03 13:35:17] info: MongoDB connected: localhost
+[2025-06-03 13:35:22] info: Server is running at http://localhost:3000
+[2025-06-03 13:35:23] info: MongoDB connected: localhost
+[2025-06-03 13:35:27] info: Server is running at http://localhost:3000
+[2025-06-03 13:35:27] info: MongoDB connected: localhost
+[2025-06-03 13:35:50] info: Server is running at http://localhost:3000
+[2025-06-03 13:35:50] info: MongoDB connected: localhost
+[2025-06-03 13:37:29] info: Server is running at http://localhost:3000
+[2025-06-03 13:37:29] info: MongoDB connected: localhost
+[2025-06-03 13:37:50] info: Server is running at http://localhost:3000
+[2025-06-03 13:37:50] info: MongoDB connected: localhost
+[2025-06-03 13:38:02] info: Server is running at http://localhost:3000
+[2025-06-03 13:38:02] info: MongoDB connected: localhost
+[2025-06-03 13:38:15] error: [DELETE] /api/vendor/product/683974ce763e507822465e57 - Cannot read properties of undefined (reading 'title') - IP: ::1
+[2025-06-03 13:39:01] info: Server is running at http://localhost:3000
+[2025-06-03 13:39:01] info: MongoDB connected: localhost
+[2025-06-03 13:39:09] info: Server is running at http://localhost:3000
+[2025-06-03 13:39:09] info: MongoDB connected: localhost
+[2025-06-03 13:39:44] error: [DELETE] /api/vendor/product/68357cb53405826d9b4afaa6 - Cannot read properties of undefined (reading 'title') - IP: ::1
+[2025-06-03 13:40:01] info: Server is running at http://localhost:3000
+[2025-06-03 13:40:01] info: MongoDB connected: localhost
+[2025-06-03 13:40:11] error: [DELETE] /api/vendor/product/6835801456d75efec91358c7 - Cannot read properties of undefined (reading 'title') - IP: ::1
+[2025-06-03 13:51:42] info: Server is running at http://localhost:3000
+[2025-06-03 13:51:42] info: MongoDB connected: localhost
+[2025-06-03 13:52:27] error: [DELETE] /api/vendor/product/68396bd019ab00285534e2d6 - Cannot read properties of undefined (reading 'title') - IP: ::1
+[2025-06-03 13:54:55] info: Server is running at http://localhost:3000
+[2025-06-03 13:54:55] info: MongoDB connected: localhost
+[2025-06-03 13:54:58] info: Server is running at http://localhost:3000
+[2025-06-03 13:54:58] info: MongoDB connected: localhost
+[2025-06-03 13:56:03] info: Product created by: vendor, Product: t-Shirt
+[2025-06-03 13:56:47] info: Product created by: vendor, Product: Shirt
+[2025-06-03 13:57:08] error: [DELETE] /api/vendor/product/683eb19bb467c4e89ebc8f7f - user is not defined - IP: ::1
+[2025-06-03 13:57:21] info: Server is running at http://localhost:3000
+[2025-06-03 13:57:21] info: MongoDB connected: localhost
+[2025-06-03 13:58:00] info: Server is running at http://localhost:3000
+[2025-06-03 13:58:00] info: MongoDB connected: localhost
+[2025-06-03 13:58:02] info: Server is running at http://localhost:3000
+[2025-06-03 13:58:02] info: MongoDB connected: localhost
+[2025-06-03 13:58:05] info: Server is running at http://localhost:3000
+[2025-06-03 13:58:05] info: MongoDB connected: localhost
+[2025-06-03 13:58:11] info: Server is running at http://localhost:3000
+[2025-06-03 13:58:11] info: MongoDB connected: localhost
+[2025-06-03 13:58:21] info: Product deleted successfully!
+[2025-06-03 13:58:42] info: Server is running at http://localhost:3000
+[2025-06-03 13:58:42] info: MongoDB connected: localhost
+[2025-06-03 13:58:43] info: Server is running at http://localhost:3000
+[2025-06-03 13:58:43] info: MongoDB connected: localhost
+[2025-06-03 13:58:51] info: Server is running at http://localhost:3000
+[2025-06-03 13:58:51] info: MongoDB connected: localhost
+[2025-06-03 13:58:53] info: Server is running at http://localhost:3000
+[2025-06-03 13:58:53] info: MongoDB connected: localhost
+[2025-06-03 13:58:58] info: Server is running at http://localhost:3000
+[2025-06-03 13:58:58] info: MongoDB connected: localhost
+[2025-06-03 13:59:02] info: Server is running at http://localhost:3000
+[2025-06-03 13:59:02] info: MongoDB connected: localhost
+[2025-06-03 13:59:31] info: Product created by: vendor, Product: Shirt
+[2025-06-03 14:00:12] info: Server is running at http://localhost:3000
+[2025-06-03 14:00:12] info: MongoDB connected: localhost
+[2025-06-03 14:00:55] info: Product deleted by: vendor, Product: Shirt
+[2025-06-03 14:02:03] info: Product created by: vendor, Product: Shirt
+[2025-06-03 14:02:21] info: Product deleted by: vendor, Product: Shirt
+[2025-06-03 14:09:27] info: Server is running at http://localhost:3000
+[2025-06-03 14:09:27] info: MongoDB connected: localhost
+[2025-06-03 14:09:30] info: Server is running at http://localhost:3000
+[2025-06-03 14:09:30] info: MongoDB connected: localhost
+[2025-06-03 14:09:51] info: Server is running at http://localhost:3000
+[2025-06-03 14:09:51] info: MongoDB connected: localhost
+[2025-06-03 14:09:53] info: Server is running at http://localhost:3000
+[2025-06-03 14:09:53] info: MongoDB connected: localhost
+[2025-06-03 14:09:55] info: Server is running at http://localhost:3000
+[2025-06-03 14:09:55] info: MongoDB connected: localhost
+[2025-06-03 14:09:58] info: Server is running at http://localhost:3000
+[2025-06-03 14:09:59] info: Server is running at http://localhost:3000
+[2025-06-03 14:09:59] info: MongoDB connected: localhost
+[2025-06-03 14:10:02] info: Server is running at http://localhost:3000
+[2025-06-03 14:10:02] info: MongoDB connected: localhost
+[2025-06-03 14:10:04] info: Server is running at http://localhost:3000
+[2025-06-03 14:10:04] info: MongoDB connected: localhost
+[2025-06-03 14:10:07] info: Server is running at http://localhost:3000
+[2025-06-03 14:10:07] info: MongoDB connected: localhost
+[2025-06-03 14:10:09] info: Server is running at http://localhost:3000
+[2025-06-03 14:10:10] info: MongoDB connected: localhost
+[2025-06-03 14:10:11] info: Server is running at http://localhost:3000
+[2025-06-03 14:10:11] info: MongoDB connected: localhost
+[2025-06-03 14:10:15] info: Server is running at http://localhost:3000
+[2025-06-03 14:10:15] info: MongoDB connected: localhost
+[2025-06-03 14:10:18] info: Server is running at http://localhost:3000
+[2025-06-03 14:10:18] info: MongoDB connected: localhost
+[2025-06-03 14:10:21] info: Server is running at http://localhost:3000
+[2025-06-03 14:10:21] info: MongoDB connected: localhost
+[2025-06-03 14:10:27] info: Server is running at http://localhost:3000
+[2025-06-03 14:10:27] info: MongoDB connected: localhost
+[2025-06-03 14:10:59] info: Server is running at http://localhost:3000
+[2025-06-03 14:11:00] info: MongoDB connected: localhost
+[2025-06-03 14:12:09] info: Product created by: vendor, Product: Shirt
+[2025-06-03 14:12:22] info: Product deleted by: vendor, Product: Shirt
+[2025-06-03 14:13:08] info: Server is running at http://localhost:3000
+[2025-06-03 14:13:08] info: MongoDB connected: localhost
+[2025-06-03 14:13:13] info: Server is running at http://localhost:3000
+[2025-06-03 14:13:13] info: MongoDB connected: localhost
+[2025-06-03 14:13:27] info: Server is running at http://localhost:3000
+[2025-06-03 14:13:27] info: MongoDB connected: localhost
+[2025-06-03 14:13:32] info: Server is running at http://localhost:3000
+[2025-06-03 14:13:32] info: MongoDB connected: localhost
+[2025-06-03 14:13:34] error: ❌ Failed to delete image products/ywxhad84muraza9cwqqo: Must supply api_key
+[2025-06-03 14:13:34] info: ✅ Job 7 completed
+[2025-06-03 14:15:42] info: Server is running at http://localhost:3000
+[2025-06-03 14:15:42] info: MongoDB connected: localhost
+[2025-06-03 14:16:08] info: Product created by: vendor, Product: Shirt
+[2025-06-03 14:16:23] info: Product deleted by: vendor, Product: Shirt
+[2025-06-03 14:16:23] error: ❌ Failed to delete image products/mxtfb8ua9wnitjfm4tbp: Must supply api_key
+[2025-06-03 14:16:23] info: ✅ Job 8 completed
+[2025-06-03 14:18:22] info: Server is running at http://localhost:3000
+[2025-06-03 14:18:22] info: MongoDB connected: localhost
+[2025-06-03 14:18:23] info: Server is running at http://localhost:3000
+[2025-06-03 14:18:23] info: MongoDB connected: localhost
+[2025-06-03 14:18:26] info: Server is running at http://localhost:3000
+[2025-06-03 14:18:26] info: MongoDB connected: localhost
+[2025-06-03 14:18:28] info: Server is running at http://localhost:3000
+[2025-06-03 14:18:28] info: MongoDB connected: localhost
+[2025-06-03 14:18:43] info: Server is running at http://localhost:3000
+[2025-06-03 14:18:43] info: MongoDB connected: localhost
+[2025-06-03 14:18:45] info: Server is running at http://localhost:3000
+[2025-06-03 14:18:45] info: MongoDB connected: localhost
+[2025-06-03 14:18:50] info: Server is running at http://localhost:3000
+[2025-06-03 14:18:51] info: MongoDB connected: localhost
+[2025-06-03 14:19:29] info: Server is running at http://localhost:3000
+[2025-06-03 14:19:29] info: MongoDB connected: localhost
+[2025-06-03 14:19:31] info: Server is running at http://localhost:3000
+[2025-06-03 14:19:31] info: MongoDB connected: localhost
+[2025-06-03 14:19:37] info: Server is running at http://localhost:3000
+[2025-06-03 14:19:37] info: MongoDB connected: localhost
+[2025-06-03 14:19:48] info: Server is running at http://localhost:3000
+[2025-06-03 14:19:48] info: MongoDB connected: localhost
+[2025-06-03 14:20:05] info: Server is running at http://localhost:3000
+[2025-06-03 14:20:05] info: MongoDB connected: localhost
+[2025-06-03 14:20:10] info: Server is running at http://localhost:3000
+[2025-06-03 14:20:10] info: MongoDB connected: localhost
+[2025-06-03 14:20:14] info: Server is running at http://localhost:3000
+[2025-06-03 14:20:14] info: MongoDB connected: localhost
+[2025-06-03 14:21:59] info: Server is running at http://localhost:3000
+[2025-06-03 14:21:59] info: MongoDB connected: localhost
+[2025-06-03 14:22:01] info: Server is running at http://localhost:3000
+[2025-06-03 14:22:01] info: MongoDB connected: localhost
+[2025-06-03 14:22:04] info: Server is running at http://localhost:3000
+[2025-06-03 14:22:04] info: MongoDB connected: localhost
+[2025-06-03 14:22:05] info: Server is running at http://localhost:3000
+[2025-06-03 14:22:05] info: MongoDB connected: localhost
+[2025-06-03 14:22:08] info: Server is running at http://localhost:3000
+[2025-06-03 14:22:09] info: MongoDB connected: localhost
+[2025-06-03 14:22:51] info: Product created by: vendor, Product: Shirt
+[2025-06-03 14:23:26] info: Product deleted by: vendor, Product: Shirt
+[2025-06-03 14:35:14] info: Server is running at http://localhost:3000
+[2025-06-03 14:35:14] info: MongoDB connected: localhost
+[2025-06-03 14:35:18] info: Server is running at http://localhost:3000
+[2025-06-03 14:35:18] info: MongoDB connected: localhost
+[2025-06-03 14:38:34] info: Server is running at http://localhost:3000
+[2025-06-03 14:38:34] info: MongoDB connected: localhost
+[2025-06-03 14:38:35] info: Server is running at http://localhost:3000
+[2025-06-03 14:38:35] info: MongoDB connected: localhost
+[2025-06-03 14:38:37] info: Server is running at http://localhost:3000
+[2025-06-03 14:38:37] info: MongoDB connected: localhost
+[2025-06-03 14:39:00] info: Server is running at http://localhost:3000
+[2025-06-03 14:39:00] info: MongoDB connected: localhost
+[2025-06-03 14:39:01] info: Server is running at http://localhost:3000
+[2025-06-03 14:39:01] info: MongoDB connected: localhost
+[2025-06-03 14:42:31] info: Server is running at http://localhost:3000
+[2025-06-03 14:42:31] info: MongoDB connected: localhost
+[2025-06-03 14:42:39] info: Server is running at http://localhost:3000
+[2025-06-03 14:42:39] info: MongoDB connected: localhost
+[2025-06-03 14:42:41] info: Server is running at http://localhost:3000
+[2025-06-03 14:42:41] info: MongoDB connected: localhost
+[2025-06-03 14:42:46] info: Server is running at http://localhost:3000
+[2025-06-03 14:42:46] info: MongoDB connected: localhost
+[2025-06-03 14:43:01] info: Server is running at http://localhost:3000
+[2025-06-03 14:43:01] info: MongoDB connected: localhost
+[2025-06-03 14:43:06] info: Server is running at http://localhost:3000
+[2025-06-03 14:43:06] info: MongoDB connected: localhost
+[2025-06-03 14:43:09] info: Server is running at http://localhost:3000
+[2025-06-03 14:43:09] info: MongoDB connected: localhost
+[2025-06-03 14:43:11] info: Server is running at http://localhost:3000
+[2025-06-03 14:43:11] info: MongoDB connected: localhost
+[2025-06-03 14:43:13] info: Server is running at http://localhost:3000
+[2025-06-03 14:43:13] info: MongoDB connected: localhost
+[2025-06-03 14:43:21] info: Server is running at http://localhost:3000
+[2025-06-03 14:43:21] info: MongoDB connected: localhost
+[2025-06-03 14:43:32] info: Server is running at http://localhost:3000
+[2025-06-03 14:43:32] info: MongoDB connected: localhost
+[2025-06-03 14:43:35] info: Server is running at http://localhost:3000
+[2025-06-03 14:43:35] info: MongoDB connected: localhost
+[2025-06-03 14:43:39] info: Server is running at http://localhost:3000
+[2025-06-03 14:43:39] info: MongoDB connected: localhost
+[2025-06-03 14:43:43] info: Server is running at http://localhost:3000
+[2025-06-03 14:43:43] info: MongoDB connected: localhost
+[2025-06-03 14:43:47] info: Server is running at http://localhost:3000
+[2025-06-03 14:43:47] info: MongoDB connected: localhost
+[2025-06-03 14:43:57] info: Server is running at http://localhost:3000
+[2025-06-03 14:43:57] info: MongoDB connected: localhost
+[2025-06-03 14:44:00] info: Server is running at http://localhost:3000
+[2025-06-03 14:44:00] info: MongoDB connected: localhost
+[2025-06-03 14:44:19] info: Server is running at http://localhost:3000
+[2025-06-03 14:44:19] info: MongoDB connected: localhost
+[2025-06-03 14:44:53] info: Product created by: vendor, Product: Shirt
+[2025-06-03 14:45:08] info: Product deleted by: vendor, Product: Shirt
+[2025-06-03 14:46:48] info: Product created by: vendor, Product: Shirt
+[2025-06-03 14:47:08] info: Product deleted by: vendor, Product: Shirt
+[2025-06-04 14:29:11] info: Server is running at http://localhost:3000
+[2025-06-04 14:29:11] info: MongoDB connected: localhost
+[2025-06-04 14:30:03] info: Server is running at http://localhost:3000
+[2025-06-04 14:30:03] info: MongoDB connected: localhost
+[2025-06-04 14:30:10] info: Server is running at http://localhost:3000
+[2025-06-04 14:30:10] info: MongoDB connected: localhost
+[2025-06-04 14:42:06] info: Server is running at http://localhost:3000
+[2025-06-04 14:42:06] info: MongoDB connected: localhost
+[2025-06-04 14:42:08] info: Server is running at http://localhost:3000
+[2025-06-04 14:42:08] info: MongoDB connected: localhost
+[2025-06-04 14:42:15] info: Server is running at http://localhost:3000
+[2025-06-04 14:42:15] info: MongoDB connected: localhost
+[2025-06-04 14:42:23] info: Server is running at http://localhost:3000
+[2025-06-04 14:42:23] info: MongoDB connected: localhost
+[2025-06-04 14:42:26] info: Server is running at http://localhost:3000
+[2025-06-04 14:42:26] info: MongoDB connected: localhost
+[2025-06-04 14:42:30] info: Server is running at http://localhost:3000
+[2025-06-04 14:42:30] info: MongoDB connected: localhost
+[2025-06-04 14:42:35] info: Server is running at http://localhost:3000
+[2025-06-04 14:42:35] info: MongoDB connected: localhost
+[2025-06-04 14:42:38] info: Server is running at http://localhost:3000
+[2025-06-04 14:42:38] info: MongoDB connected: localhost
+[2025-06-04 14:42:40] info: Server is running at http://localhost:3000
+[2025-06-04 14:42:40] info: MongoDB connected: localhost
+[2025-06-04 14:42:44] info: Server is running at http://localhost:3000
+[2025-06-04 14:42:44] info: MongoDB connected: localhost
+[2025-06-04 14:42:46] info: Server is running at http://localhost:3000
+[2025-06-04 14:42:46] info: MongoDB connected: localhost
+[2025-06-04 14:42:50] info: Server is running at http://localhost:3000
+[2025-06-04 14:42:50] info: MongoDB connected: localhost
+[2025-06-04 14:42:57] info: Server is running at http://localhost:3000
+[2025-06-04 14:42:57] info: MongoDB connected: localhost
+[2025-06-04 14:42:59] info: Server is running at http://localhost:3000
+[2025-06-04 14:42:59] info: MongoDB connected: localhost
+[2025-06-04 14:43:03] info: Server is running at http://localhost:3000
+[2025-06-04 14:43:03] info: MongoDB connected: localhost
+[2025-06-04 14:43:05] info: Server is running at http://localhost:3000
+[2025-06-04 14:43:05] info: MongoDB connected: localhost
+[2025-06-04 14:43:07] info: Server is running at http://localhost:3000
+[2025-06-04 14:43:07] info: MongoDB connected: localhost
+[2025-06-04 14:43:09] info: Server is running at http://localhost:3000
+[2025-06-04 14:43:09] info: MongoDB connected: localhost
+[2025-06-04 14:43:16] info: Server is running at http://localhost:3000
+[2025-06-04 14:43:16] info: MongoDB connected: localhost
+[2025-06-04 14:43:17] info: Server is running at http://localhost:3000
+[2025-06-04 14:43:17] info: MongoDB connected: localhost
+[2025-06-04 14:43:21] info: Server is running at http://localhost:3000
+[2025-06-04 14:43:21] info: MongoDB connected: localhost
+[2025-06-04 14:43:28] info: Server is running at http://localhost:3000
+[2025-06-04 14:43:28] info: MongoDB connected: localhost
+[2025-06-04 14:43:34] info: Server is running at http://localhost:3000
+[2025-06-04 14:43:34] info: MongoDB connected: localhost
+[2025-06-04 14:43:38] info: Server is running at http://localhost:3000
+[2025-06-04 14:43:38] info: MongoDB connected: localhost
+[2025-06-04 14:43:45] info: Server is running at http://localhost:3000
+[2025-06-04 14:43:45] info: MongoDB connected: localhost
+[2025-06-04 14:43:54] info: Server is running at http://localhost:3000
+[2025-06-04 14:43:54] info: MongoDB connected: localhost
+[2025-06-04 14:44:00] info: Server is running at http://localhost:3000
+[2025-06-04 14:44:00] info: MongoDB connected: localhost
+[2025-06-04 14:44:05] info: Server is running at http://localhost:3000
+[2025-06-04 14:44:05] info: MongoDB connected: localhost
+[2025-06-04 14:50:35] info: Server is running at http://localhost:3000
+[2025-06-04 14:50:35] info: MongoDB connected: localhost
+[2025-06-04 15:05:21] info: Server is running at http://localhost:3000
+[2025-06-04 15:05:21] info: MongoDB connected: localhost
+[2025-06-04 15:05:30] info: Server is running at http://localhost:3000
+[2025-06-04 15:05:30] info: MongoDB connected: localhost
+[2025-06-04 15:05:31] info: Server is running at http://localhost:3000
+[2025-06-04 15:05:31] info: MongoDB connected: localhost
+[2025-06-04 15:05:33] info: Server is running at http://localhost:3000
+[2025-06-04 15:05:33] info: MongoDB connected: localhost
+[2025-06-04 15:05:38] info: Server is running at http://localhost:3000
+[2025-06-04 15:05:38] info: MongoDB connected: localhost
+[2025-06-04 15:05:40] info: Server is running at http://localhost:3000
+[2025-06-04 15:05:40] info: MongoDB connected: localhost
+[2025-06-04 15:05:59] info: Server is running at http://localhost:3000
+[2025-06-04 15:05:59] info: MongoDB connected: localhost
+[2025-06-04 15:06:03] info: Server is running at http://localhost:3000
+[2025-06-04 15:06:03] info: MongoDB connected: localhost
+[2025-06-04 15:06:07] info: Server is running at http://localhost:3000
+[2025-06-04 15:06:07] info: MongoDB connected: localhost
+[2025-06-04 15:06:10] info: Server is running at http://localhost:3000
+[2025-06-04 15:06:10] info: MongoDB connected: localhost
+[2025-06-04 15:06:13] info: Server is running at http://localhost:3000
+[2025-06-04 15:06:13] info: MongoDB connected: localhost
+[2025-06-04 15:06:18] info: Server is running at http://localhost:3000
+[2025-06-04 15:06:18] info: MongoDB connected: localhost
+[2025-06-04 15:06:22] info: Server is running at http://localhost:3000
+[2025-06-04 15:06:22] info: MongoDB connected: localhost
+[2025-06-04 15:06:26] info: Server is running at http://localhost:3000
+[2025-06-04 15:06:26] info: MongoDB connected: localhost
+[2025-06-04 15:06:44] info: Server is running at http://localhost:3000
+[2025-06-04 15:06:44] info: MongoDB connected: localhost
+[2025-06-04 15:07:00] info: Server is running at http://localhost:3000
+[2025-06-04 15:07:00] info: MongoDB connected: localhost
+[2025-06-04 15:07:02] info: Server is running at http://localhost:3000
+[2025-06-04 15:07:02] info: MongoDB connected: localhost
+[2025-06-04 15:07:03] info: Server is running at http://localhost:3000
+[2025-06-04 15:07:03] info: MongoDB connected: localhost
+[2025-06-04 15:07:28] info: Server is running at http://localhost:3000
+[2025-06-04 15:07:28] info: MongoDB connected: localhost
+[2025-06-04 15:07:33] info: Server is running at http://localhost:3000
+[2025-06-04 15:07:33] info: MongoDB connected: localhost
+[2025-06-04 15:07:35] info: Server is running at http://localhost:3000
+[2025-06-04 15:07:35] info: MongoDB connected: localhost
+[2025-06-04 15:07:38] info: Server is running at http://localhost:3000
+[2025-06-04 15:07:38] info: MongoDB connected: localhost
+[2025-06-04 15:07:52] info: Server is running at http://localhost:3000
+[2025-06-04 15:07:52] info: MongoDB connected: localhost
+[2025-06-04 15:07:54] info: Server is running at http://localhost:3000
+[2025-06-04 15:07:54] info: MongoDB connected: localhost
+[2025-06-04 15:07:57] info: Server is running at http://localhost:3000
+[2025-06-04 15:07:57] info: MongoDB connected: localhost
+[2025-06-04 15:08:01] info: Server is running at http://localhost:3000
+[2025-06-04 15:08:01] info: MongoDB connected: localhost
+[2025-06-04 15:08:10] info: Server is running at http://localhost:3000
+[2025-06-04 15:08:10] info: MongoDB connected: localhost
+[2025-06-04 15:08:18] info: Server is running at http://localhost:3000
+[2025-06-04 15:08:18] info: MongoDB connected: localhost
+[2025-06-04 15:08:56] info: Server is running at http://localhost:3000
+[2025-06-04 15:08:56] info: MongoDB connected: localhost
+[2025-06-04 15:08:58] info: Server is running at http://localhost:3000
+[2025-06-04 15:08:58] info: MongoDB connected: localhost
+[2025-06-04 15:09:03] info: Server is running at http://localhost:3000
+[2025-06-04 15:09:03] info: MongoDB connected: localhost
+[2025-06-04 15:09:06] info: Server is running at http://localhost:3000
+[2025-06-04 15:09:06] info: MongoDB connected: localhost
+[2025-06-04 15:09:22] info: Server is running at http://localhost:3000
+[2025-06-04 15:09:22] info: MongoDB connected: localhost
+[2025-06-04 15:09:28] info: Server is running at http://localhost:3000
+[2025-06-04 15:09:28] info: MongoDB connected: localhost
+[2025-06-04 15:09:45] info: Server is running at http://localhost:3000
+[2025-06-04 15:09:45] info: MongoDB connected: localhost
+[2025-06-04 15:10:04] info: Server is running at http://localhost:3000
+[2025-06-04 15:10:04] info: MongoDB connected: localhost
+[2025-06-04 15:10:07] info: Server is running at http://localhost:3000
+[2025-06-04 15:10:07] info: MongoDB connected: localhost
+[2025-06-04 15:10:11] info: Server is running at http://localhost:3000
+[2025-06-04 15:10:11] info: MongoDB connected: localhost
+[2025-06-04 15:10:19] info: Server is running at http://localhost:3000
+[2025-06-04 15:10:19] info: MongoDB connected: localhost
+[2025-06-04 15:10:48] info: Server is running at http://localhost:3000
+[2025-06-04 15:10:48] info: MongoDB connected: localhost
+[2025-06-04 15:10:57] info: Server is running at http://localhost:3000
+[2025-06-04 15:10:57] info: MongoDB connected: localhost
+[2025-06-04 15:10:58] info: Server is running at http://localhost:3000
+[2025-06-04 15:10:58] info: MongoDB connected: localhost
+[2025-06-04 15:11:04] info: Server is running at http://localhost:3000
+[2025-06-04 15:11:04] info: MongoDB connected: localhost
+[2025-06-04 15:11:06] info: Server is running at http://localhost:3000
+[2025-06-04 15:11:06] info: MongoDB connected: localhost
+[2025-06-04 15:11:13] info: Server is running at http://localhost:3000
+[2025-06-04 15:11:13] info: MongoDB connected: localhost
+[2025-06-04 15:11:20] info: Server is running at http://localhost:3000
+[2025-06-04 15:11:20] info: MongoDB connected: localhost
+[2025-06-04 15:11:23] info: Server is running at http://localhost:3000
+[2025-06-04 15:11:23] info: MongoDB connected: localhost
+[2025-06-04 15:11:28] info: Server is running at http://localhost:3000
+[2025-06-04 15:11:28] info: MongoDB connected: localhost
+[2025-06-04 15:11:32] info: Server is running at http://localhost:3000
+[2025-06-04 15:11:32] info: MongoDB connected: localhost
+[2025-06-04 15:11:38] info: Server is running at http://localhost:3000
+[2025-06-04 15:11:38] info: MongoDB connected: localhost
+[2025-06-04 15:12:07] info: Server is running at http://localhost:3000
+[2025-06-04 15:12:07] info: MongoDB connected: localhost
+[2025-06-04 15:12:10] info: Server is running at http://localhost:3000
+[2025-06-04 15:12:10] info: MongoDB connected: localhost
+[2025-06-04 15:12:11] info: Server is running at http://localhost:3000
+[2025-06-04 15:12:11] info: MongoDB connected: localhost
+[2025-06-04 15:12:14] info: Server is running at http://localhost:3000
+[2025-06-04 15:12:14] info: MongoDB connected: localhost
+[2025-06-04 15:12:17] info: Server is running at http://localhost:3000
+[2025-06-04 15:12:17] info: MongoDB connected: localhost
+[2025-06-04 15:12:21] info: Server is running at http://localhost:3000
+[2025-06-04 15:12:21] info: MongoDB connected: localhost
+[2025-06-04 15:12:31] info: Server is running at http://localhost:3000
+[2025-06-04 15:12:31] info: MongoDB connected: localhost
+[2025-06-04 15:12:36] info: Server is running at http://localhost:3000
+[2025-06-04 15:12:36] info: MongoDB connected: localhost
+[2025-06-04 15:12:39] info: Server is running at http://localhost:3000
+[2025-06-04 15:12:39] info: MongoDB connected: localhost
+[2025-06-04 15:12:41] info: Server is running at http://localhost:3000
+[2025-06-04 15:12:41] info: MongoDB connected: localhost
+[2025-06-04 15:12:44] info: Server is running at http://localhost:3000
+[2025-06-04 15:12:44] info: MongoDB connected: localhost
+[2025-06-04 15:12:48] info: Server is running at http://localhost:3000
+[2025-06-04 15:12:48] info: MongoDB connected: localhost
+[2025-06-04 15:12:50] info: Server is running at http://localhost:3000
+[2025-06-04 15:12:51] info: MongoDB connected: localhost
+[2025-06-04 15:12:52] info: Server is running at http://localhost:3000
+[2025-06-04 15:12:53] info: MongoDB connected: localhost
+[2025-06-04 15:12:54] info: Server is running at http://localhost:3000
+[2025-06-04 15:12:54] info: MongoDB connected: localhost
+[2025-06-04 15:13:04] info: Server is running at http://localhost:3000
+[2025-06-04 15:13:04] info: MongoDB connected: localhost
+[2025-06-04 15:13:07] info: Server is running at http://localhost:3000
+[2025-06-04 15:13:07] info: MongoDB connected: localhost
+[2025-06-04 15:13:13] info: Server is running at http://localhost:3000
+[2025-06-04 15:13:13] info: MongoDB connected: localhost
+[2025-06-04 15:13:18] info: Server is running at http://localhost:3000
+[2025-06-04 15:13:18] info: MongoDB connected: localhost
+[2025-06-04 15:13:20] info: Server is running at http://localhost:3000
+[2025-06-04 15:13:20] info: MongoDB connected: localhost
+[2025-06-04 15:13:27] info: Server is running at http://localhost:3000
+[2025-06-04 15:13:27] info: MongoDB connected: localhost
+[2025-06-04 15:13:30] info: Server is running at http://localhost:3000
+[2025-06-04 15:13:30] info: MongoDB connected: localhost
+[2025-06-04 15:13:37] info: Server is running at http://localhost:3000
+[2025-06-04 15:13:37] info: MongoDB connected: localhost
+[2025-06-04 15:13:43] info: Server is running at http://localhost:3000
+[2025-06-04 15:13:43] info: MongoDB connected: localhost
+[2025-06-04 15:13:48] info: Server is running at http://localhost:3000
+[2025-06-04 15:13:48] info: MongoDB connected: localhost
+[2025-06-04 16:01:23] info: Server is running at http://localhost:3000
+[2025-06-04 16:01:23] info: MongoDB connected: localhost
+[2025-06-04 16:01:25] info: Server is running at http://localhost:3000
+[2025-06-04 16:01:25] info: MongoDB connected: localhost
